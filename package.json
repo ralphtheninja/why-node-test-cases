@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "pretest": "nsqd &",
     "test": "node tests/nsq-writer.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "nsq-bundle": "^2.0.1",
     "nsq.js": "^0.14.5",
     "why-is-node-running": "^1.1.1"
   }
