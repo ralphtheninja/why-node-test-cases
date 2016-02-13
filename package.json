@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pretest": "nsqd &",
-    "test": "node tests/nsq-writer.js"
+    "test": "node tests/nsq-writer.js",
+    "posttest": "kill-port 4150"
   },
   "keywords": [],
   "author": "",
