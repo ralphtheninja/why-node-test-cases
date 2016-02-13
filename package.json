@@ -1,0 +1,16 @@
+{
+  "name": "why-node-test-cases",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nsq.js": "^0.14.5",
+    "why-is-node-running": "^1.1.1"
+  }
+}
